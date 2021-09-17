@@ -9,7 +9,7 @@ import constants
 
 
 def main():
-    # this function checks if the user picked a number between 0-9
+    # this function checks if the user picked 5
 
     # input
     number = int(input("Guess a number between 0-9: "))
@@ -21,6 +21,9 @@ def main():
 
     else:
         print("You guessed correctly!")
+
+    print("")
+    print("Done.")
 
 
 if __name__ == "__main__":
